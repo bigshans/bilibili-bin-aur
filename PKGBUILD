@@ -1,4 +1,5 @@
-# Maintainer: aerian<wo199710@hotmail.com>
+# Maintainer: msojocs <jiyecafe@gmail.com>
+# Contributor: aerian<wo199710@hotmail.com>
 
 pkgname=bilibili-bin
 pkgdesc="基于 Bilibili PC 版修改的一个 Electron 打包"
