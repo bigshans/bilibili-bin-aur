@@ -14,7 +14,7 @@ source=("${pkgname}-v${pkgver}-${pkgrel}.tar.gz::https://github.com/msojocs/bili
 )
 sha256sums=('98bd9f33b8719cfd963089bd8b56da277a4f0e5d1cf664e98c1991969829b66a'
             'e8b7502721d837ee056eeb47fe38cbe23d6a9d6fff8228b976543e33d74ea2e5'
-            'd19ffb1f412f18b51e0ba052cdf33fc6e8b9e10062f8f42af0ee8f23591a96b0')
+            'bf0e0dff241f252f377044e094859b786d0bd874876d2757ed09f89cf3c03187')
 
 package() {
     sed -i -e 's#"$root_dir/electron/electron"#electron#' $srcdir/bin/bilibili
