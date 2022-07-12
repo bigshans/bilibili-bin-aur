@@ -3,7 +3,7 @@ pkgbase = bilibili-bin
 	pkgver = 1.2.3
 	pkgrel = 2
 	arch = any
-	depends = electron17
+	depends = electron17<=17.4.9-1
 	depends = libappindicator-gtk3
 	depends = ffmpeg
 	source = bilibili-bin-v1.2.3-2.tar.gz::https://github.com/msojocs/bilibili-linux/releases/download/v1.2.3-2/bilibili-v1.2.3-2-x86_64.tar.gz

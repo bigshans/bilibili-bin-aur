@@ -7,7 +7,7 @@ _pkgname=bilibili
 pkgver=1.2.3
 pkgrel=2
 arch=(any)
-depends=(electron17 libappindicator-gtk3 ffmpeg)
+depends=('electron17<=17.4.9-1' libappindicator-gtk3 ffmpeg)
 source=("${pkgname}-v${pkgver}-${pkgrel}.tar.gz::https://github.com/msojocs/bilibili-linux/releases/download/v${pkgver}-${pkgrel}/bilibili-v${pkgver}-${pkgrel}-x86_64.tar.gz"
 "${_pkgname}.desktop::https://raw.githubusercontent.com/msojocs/bilibili-linux/master/res/bilibili.desktop"
 "${_pkgname}.svg::https://raw.githubusercontent.com/msojocs/bilibili-linux/master/res/icons/bilibili.svg"
