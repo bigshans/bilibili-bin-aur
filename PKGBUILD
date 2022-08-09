@@ -7,7 +7,7 @@ _pkgname=bilibili
 pkgver=1.4.1
 pkgrel=1
 arch=(any)
-depends=('electron17<=17.4.9-1' libappindicator-gtk3 ffmpeg)
+depends=('electron' libappindicator-gtk3 ffmpeg)
 source=("${pkgname}-v${pkgver}-${pkgrel}.tar.gz::https://github.com/msojocs/bilibili-linux/releases/download/v${pkgver}-${pkgrel}/bilibili-v${pkgver}-${pkgrel}-x86_64.tar.gz"
 "${_pkgname}.desktop::https://raw.githubusercontent.com/msojocs/bilibili-linux/master/res/bilibili.desktop"
 "${_pkgname}.svg::https://raw.githubusercontent.com/msojocs/bilibili-linux/master/res/icons/bilibili.svg"
@@ -17,7 +17,7 @@ sha256sums=('aeb126c8ce0a3141541465bcd871d37eca228ec73f4f5edb136941f06f46ae6d'
             '3a7935d2d13d62fad68b4ee5aaa4832e6a202b379f2be2f80d3723f8f3993192')
 
 package() {
-    sed -i -e 's#"$root_dir/electron/electron"#electron17#' $srcdir/bin/bilibili
+    sed -i -e 's#"$root_dir/electron/electron"#electron#' $srcdir/bin/bilibili
     sed -i -e "s#Exec=bilibili#Exec=/opt/${pkgname}/bin/bilibili#" -e "s#Path=/path/to/bilibili#Path=/opt/${pkgname}/bin/#" $srcdir/$_pkgname.desktop
     install -d "$pkgdir"/opt/$pkgname
     install -d "$pkgdir"/usr/share/applications
