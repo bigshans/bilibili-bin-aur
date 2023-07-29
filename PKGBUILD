@@ -12,7 +12,7 @@ source=("${pkgname}-v${pkgver}-${pkgrel}.tar.gz::https://github.com/msojocs/bili
 "${_pkgname}.desktop::https://raw.githubusercontent.com/msojocs/bilibili-linux/master/res/bilibili.desktop"
 "${_pkgname}.svg::https://raw.githubusercontent.com/msojocs/bilibili-linux/master/res/icons/bilibili.svg"
 )
-sha256sums=('d77ec6fae59a88442327d1c58d579d561cebe7c0b100b96d1d66f0349a77ff9a'
+sha256sums=('eb38b6b85b72bda3b689e424d548761405b14cca60f55508b11bb51a1f379048'
             '2e7065c4255edcf39a9d07c83ae81e7c8a9b650c7a570c56e255e5647fd535d4'
             '3a7935d2d13d62fad68b4ee5aaa4832e6a202b379f2be2f80d3723f8f3993192')
 
