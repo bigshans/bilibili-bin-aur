@@ -1,15 +1,15 @@
 pkgbase = bilibili-bin
 	pkgdesc = 基于 Bilibili PC 版修改的一个 Electron 打包
-	pkgver = 1.10.1
-	pkgrel = 4
+	pkgver = 1.11.4
+	pkgrel = 1
 	arch = any
 	depends = electron
 	depends = libappindicator-gtk3
 	depends = ffmpeg
-	source = bilibili-bin-v1.10.1-4.tar.gz::https://github.com/msojocs/bilibili-linux/releases/download/v1.10.1-4/bilibili-v1.10.1-4-x86_64.tar.gz
+	source = bilibili-bin-v1.11.4-1.tar.gz::https://github.com/msojocs/bilibili-linux/releases/download/v1.11.4-1/bilibili-v1.11.4-1-x86_64.tar.gz
 	source = bilibili.desktop::https://raw.githubusercontent.com/msojocs/bilibili-linux/master/res/bilibili.desktop
 	source = bilibili.svg::https://raw.githubusercontent.com/msojocs/bilibili-linux/master/res/icons/bilibili.svg
-	sha256sums = eb38b6b85b72bda3b689e424d548761405b14cca60f55508b11bb51a1f379048
+	sha256sums = ea7c5f27695fb96c41cac9f349e655393252925035a2b047f38a894703430897
 	sha256sums = 2e7065c4255edcf39a9d07c83ae81e7c8a9b650c7a570c56e255e5647fd535d4
 	sha256sums = 3a7935d2d13d62fad68b4ee5aaa4832e6a202b379f2be2f80d3723f8f3993192
 
