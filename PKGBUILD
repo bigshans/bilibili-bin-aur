@@ -4,15 +4,15 @@
 pkgname=bilibili-bin
 pkgdesc="基于 Bilibili PC 版修改的一个 Electron 打包"
 _pkgname=bilibili
-pkgver=1.12.1
-pkgrel=3
+pkgver=1.12.5
+pkgrel=1
 arch=(any)
 depends=('electron' libappindicator-gtk3 ffmpeg)
 source=("${pkgname}-v${pkgver}-${pkgrel}.tar.gz::https://github.com/msojocs/bilibili-linux/releases/download/v${pkgver}-${pkgrel}/bilibili-v${pkgver}-${pkgrel}-x86_64.tar.gz"
 "${_pkgname}.desktop::https://raw.githubusercontent.com/msojocs/bilibili-linux/master/res/bilibili.desktop"
 "${_pkgname}.svg::https://raw.githubusercontent.com/msojocs/bilibili-linux/master/res/icons/bilibili.svg"
 )
-sha256sums=('e9911412d91573961a41e6a62de0ca00e83c92ff9025bb3216ba3b09e4520b2c'
+sha256sums=('7ec219c7e9c451c77b2030fbc8ae8d7139e08ae0d7d5aca7e0a4f780a6257708'
             '2e7065c4255edcf39a9d07c83ae81e7c8a9b650c7a570c56e255e5647fd535d4'
             '3a7935d2d13d62fad68b4ee5aaa4832e6a202b379f2be2f80d3723f8f3993192')
 
