@@ -4,7 +4,7 @@
 pkgname=bilibili-bin
 pkgdesc="基于 Bilibili PC 版修改的一个 Electron 打包"
 _pkgname=bilibili
-pkgver=1.13.6
+pkgver=1.14.0
 pkgrel=2
 arch=(any)
 _electron=electron29
@@ -13,7 +13,8 @@ source=("${pkgname}-v${pkgver}-${pkgrel}.tar.gz::https://github.com/msojocs/bili
 "${_pkgname}.desktop::https://raw.githubusercontent.com/msojocs/bilibili-linux/master/res/bilibili.desktop"
 "${_pkgname}.svg::https://raw.githubusercontent.com/msojocs/bilibili-linux/master/res/icons/bilibili.svg"
 )
-sha256sums=('d84dcec8ea3c9c3a3c768aad8c5e68f0099792d07ac17e949a6a86161b48465f'
+
+sha256sums=('dc2a2b9fa8b804658365419b264f0ffd6f9ef01578bc53152faf80e72a2e3ca6'
             '2e7065c4255edcf39a9d07c83ae81e7c8a9b650c7a570c56e255e5647fd535d4'
             '7cf1a17b2a0932927396d5fd6a5c7c5b418222a405cc99322d0a730741f41b89')
 
